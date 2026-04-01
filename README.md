@@ -1,3 +1,6 @@
+## 🌐 Live Demo
+nostra-store.netlify.app
+
 🛒 Nostra E-commerce Website
 
 Nostra is a modern and responsive frontend e-commerce website built using HTML, CSS, and JavaScript. It provides a clean and user-friendly interface for browsing products and exploring an online shopping experience without backend integration.
