@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+           <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()"> 
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+     <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+              <img src="https://ml.thcdn.com/productimg/960/960/14565376-1605109761927694.jpg"  width="200"  height="200" alt="">
+              <p> White T-Shirt</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://www.apetogentleman.com/wp-content/uploads/2022/09/BlackJeanBrandsEdit3.jpg"  width="200"  height="200" alt="">
+              <p>Black Jean</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.FcQ29nVQyheFLB6nGNfPYwHaLH?pid=Api&P=0&h=180"  width="200"  height="200" alt="">
+              <p> Black Skirt</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://static.vecteezy.com/system/resources/previews/045/701/545/large_2x/crop-top-transparent-image-png.png"  width="200"  height="200" alt="">
+              <p>Crop Top</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://images.bewakoof.com/original/men-s-black-slim-fit-shirt-513036-1660128276-1.jpg"  width="200"  height="200" alt="">
+              <p> Black Shirt</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.WxAnvfJ-LZ5MmUsohiofCAHaJQ?pid=Api&P=0&h=180"  width="200"  height="200" alt="">
+              <p>Blue Jean</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://d1fufvy4xao6k9.cloudfront.net/looks/1146/black-wool-suit-gray-long-coat-1.jpg"  width="200"  height="200" alt="">
+              <p> Coat Suit</p>
+            </div>
+
+            <div class="products-box">
+              <img src="https://images.ctfassets.net/jqqtl09n2ww8/61Lxxi0tgfAVVHExyT6Ix8/d75c965382de505e70a1e8087bc125e5/02-24-10-11-029-thumbnail.jpg"  width="200"  height="200" alt="">
+              <p>Denims</p>
+            </div>
+        </div>
+     </div>
+  
+    
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class=" headingText"> Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p> @ 2026 Nostra.com</p>
+    </div>
+    <script src="collection.js"></script>
+</body>
+</html>
